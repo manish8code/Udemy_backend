@@ -1,0 +1,23 @@
+utf-8 is character encoding
+
+what are buffer in node.js?
+
+*A buffer is a temporary storage area for binary data.
+
+*Node.js does not support direct binary maniopulateion(like c/c++)
+so buffers help handle raw data efficiently.
+
+*use mostly when dealing with file streams, network data, and binary protocols.
+
+
+Why do we need buffers?
+
+*js string are utf-16 encoded,
+making direct binary data handling inefficient.
+
+*Buffers store binary data outside V8's heap.
+
+*useful when working with:
+  file system(fs module)
+  networking(tcp,udp,websocket)
+  streams(handling chunks of data)
