@@ -1,0 +1,11 @@
+const EventEmitter =require("events");
+the EventEmitter class sort of thing is created
+
+const eventEmitter =new EventEmitter();
+now the object kind of thing is created
+
+now we can apply many different things to this 
+like   eventEmitter.on   .once and so on....
+
+eventEmitter.on("",funciton)  the first one is the event and second is funciton
+
